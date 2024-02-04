@@ -18,9 +18,20 @@ section{
 }
 
 .contenedor{
-    width: 500px;
+    background-color: #7077A1;
+    width: 800px;
     height: 500px;
-    border-radius: 2px;
+    border-radius: 10px;
+}
+
+.contenedor .listado-contacto .contacto h3{
+    font-size: 30px;
+}
+
+.contenedor .listado-contacto .contacto p{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
 }
 
 .listado-contacto{
@@ -39,7 +50,8 @@ section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 4rem;
+    height: 3rem;
+    margin: 10px;
 }
 
 .icono{
