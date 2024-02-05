@@ -1,0 +1,54 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-height: 100vh;
+    background: rgb(63, 94, 251);
+    background: radial-gradient(circle, rgb(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+
+.header{
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+  }
+  
+  .header header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  
+  .header header .logo a{
+    font-family: 'Righteous';
+    font-size: 36px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .header header ul{
+    display: flex;
+    list-style: none;
+  }
+  
+  .header header nav ul li a{
+    text-align: none;
+    color: #fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none;
+  }
+  
+  .header header nav ul li a:hover{
+    color: rgb(63, 94, 251);
+  }
